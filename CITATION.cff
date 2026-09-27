@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use DocForge in research or production, please cite as below."
+authors:
+- family-names: "Gattu"
+  given-names: "Pruthvi Nag"
+title: "DocForge: Intelligent Clinical Document Intelligence with Platt Scaling Calibration"
+version: 1.0.0
+date-released: 2026-09-24
+url: "https://github.com/pruthvi51/docforge"
