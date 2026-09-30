@@ -28,3 +28,16 @@ Production clinical document intelligence platform converting unstructured medic
 - **Clinician Review Optimization**: Platt scaling confidence calibration routed only ambiguous extractions (<85% confidence) to clinicians, cutting review volume by **73%**.
 - **Inference Cost Accounting**: Deterministic-first cascade routing slashed token utilization by **42%**, processing over **500K+ pages monthly** at $0.0034/page.
 - **Interoperability Standards**: Automated mapping and validation to FHIR R4 JSON resources and OMOP CDM observational models.
+
+## Research Paper & Citation
+The full IEEE technical report is available at [paper/docforge_architecture_paper.pdf](paper/docforge_architecture_paper.pdf).
+
+```bibtex
+@article{gattu2026docforge,
+  author = {Gattu, Pruthvi Nag},
+  title = {DocForge: Intelligent Clinical Document Extraction via Deterministic-First Cascades and Platt-Scaled Confidence Calibration},
+  journal = {Technical Report},
+  year = {2026},
+  url = {https://github.com/pruthvi51/docforge}
+}
+```
