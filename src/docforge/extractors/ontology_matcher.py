@@ -2,8 +2,9 @@
 RapidFuzz Clinical Ontology Matcher:
 Normalizes colloquial disease/medication strings into canonical ICD-10 and RxNorm terms.
 """
-from rapidfuzz import process, fuzz
-from typing import List, Dict, Optional, Tuple, Any
+from typing import Any, Dict, Optional
+
+from rapidfuzz import fuzz, process
 
 CLINICAL_ONTOLOGY = {
     "type 2 diabetes": {"code": "E11.9", "type": "DIAGNOSIS"},

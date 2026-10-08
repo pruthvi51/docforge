@@ -10,3 +10,8 @@ def test_omop_condition_occurrence():
     res = to_omop_condition_occurrence(person_id=101, concept_id=201826, start_date="2024-01-15")
     assert res["person_id"] == 101
     assert res["condition_concept_id"] == 201826
+
+def test_fhir_observation_resource():
+    res = to_fhir_observation("p-001", "8480-6", 120.0, "mmHg")
+    assert res["resourceType"] == "Observation"
+    assert res["subject"]["reference"] == "Patient/p-001"

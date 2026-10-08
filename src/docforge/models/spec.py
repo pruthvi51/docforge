@@ -2,7 +2,7 @@
 Pydantic v2 Models for DocForge Extraction Pipelines.
 """
 from enum import Enum
-from typing import List, Dict, Optional, Any
+from typing import Any, Dict, List
 from pydantic import BaseModel, Field
 
 class StepType(str, Enum):
